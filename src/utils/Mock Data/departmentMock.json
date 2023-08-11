@@ -1,0 +1,20 @@
+[
+    {
+        "teams":["team1"],
+        "name":"Staff / HR",
+        "head":"head1",
+        "id":"departmentStaff"
+    },
+    {
+        "teams":["team2"],
+        "name":"Engineering",
+        "head":"head2",
+        "id":"departmentEngineering"
+    },
+    {
+        "teams":["team3"],
+        "name":"Design",
+        "head":"head3",
+        "id":"departmentDesign"
+    }
+]

@@ -1,0 +1,61 @@
+.sidebar-container {
+  width: 300px;
+  border: 2px solid #d5bdaf;
+  height: 92vh;
+
+  .dropbutton-heading {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    button {
+      height: 30px;
+      width: 30px;
+      border: none;
+      background-color: transparent;
+      margin-right: 5px;
+      cursor: pointer;
+      img {
+        transition: transform 0.1s;
+        height: 100%;
+      }
+    }
+    &:hover{
+      background-color: #edddd4d1;
+    }
+  }
+  .dropdown-button-active {
+    button {
+      img {
+        transform: rotate(0deg) !important;
+      }
+    }
+  }
+
+  .dropdown-closed {
+    height: 0px;
+    overflow: hidden;
+  }
+
+  .team-employees {
+    margin-left: 35px;
+    .team-leader, .team-member {
+      cursor: pointer;
+    }
+  }
+  .sidebar-team-leader, .sidebar-team-member{
+    display: flex;
+    align-items: center;
+    height:30px;
+  }
+  .sidebar-team-leader:hover, .sidebar-team-member:hover{
+    background-color: #edddd4d1;
+    cursor:pointer;
+  }
+}
+
+.dropdown-margin-left {
+  margin-left: 25px;
+}
+
+

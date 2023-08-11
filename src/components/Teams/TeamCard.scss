@@ -1,0 +1,28 @@
+
+.employee-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    .employee-content-card{
+        margin:20px;
+    }
+}
+.team-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin:20px;
+    .team-name{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    dialog{
+        button{
+            margin: 10px 0;
+        }
+        .add-member-cancel-button{
+            width:100%;
+        }
+    }
+}

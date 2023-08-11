@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Member 1",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "member",
+        "id":"member1"
+    },
+    {
+        "name": "Member 2",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "member",
+        "id":"member2"
+    },
+    {
+        "name": "Member 3",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "member",
+        "id":"member3"
+    },
+    {
+        "name": "Leader 1",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "leader",
+        "id":"leader1"
+    },
+    {
+        "name": "Leader 2",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "leader",
+        "id":"leader2"
+    },
+    {
+        "name": "Leader 3",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "leader",
+        "id":"leader3"
+    },
+    {
+        "name": "Head 1",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "head",
+        "id":"head1"
+    },
+    {
+        "name": "Head 2",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "head",
+        "id":"head2"
+    },
+    {
+        "name": "Head 3",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "head",
+        "id":"head3"
+    },
+    {
+        "name": "CEO Name",
+        "phoneNumber": 123456789,
+        "email": "johnlead@gmail.com",
+        "position": "CEO",
+        "id":"ceoID"
+    }
+]

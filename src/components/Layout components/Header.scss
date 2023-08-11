@@ -1,0 +1,36 @@
+.header-container {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #d5bdaf;
+  position: sticky;
+  width: 100%;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+  }
+  form {
+    input {
+      height: 30px;
+      font-size: medium;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      padding-left: 10px;
+      // position: fixed;
+    }
+  }
+  .search-results{
+      width: 400px;
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      position: fixed;
+      top:50px;
+      right:30px;
+      // display: none;
+  }
+}

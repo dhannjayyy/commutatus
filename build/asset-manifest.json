@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3bf57171.css",
+    "main.js": "/static/js/main.2a109d45.js",
+    "index.html": "/index.html",
+    "static/media/caret-down-solid.svg": "/static/media/caret-down-solid.43d657784c67c9d0a9938018a7ca6adf.svg",
+    "main.3bf57171.css.map": "/static/css/main.3bf57171.css.map",
+    "main.2a109d45.js.map": "/static/js/main.2a109d45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bf57171.css",
+    "static/js/main.2a109d45.js"
+  ]
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Team 1",
+        "members": ["member1"],
+        "leader": "leader1",
+        "id":"team1"
+    },
+    {
+        "name": "Team 2",
+        "members": ["member2"],
+        "leader": "leader2",
+        "id":"team2"
+    },
+    {
+        "name": "Team 3",
+        "members": ["member3"],
+        "leader": "leader3",
+        "id":"team3"
+    }
+]

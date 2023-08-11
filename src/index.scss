@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.CTA-button {
+  display: block;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #d5bdaf;
+  color: white;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+dialog {
+  padding: 10px;
+  font-weight: 600;
+  margin: auto;
+  label,
+  input,
+  select {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #d5bdaf;
+  }
+  label {
+    border: none;
+  }
+}
+
+label,
+input,
+select {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #d5bdaf;
+}
+
+label {
+  border: none;
+}
