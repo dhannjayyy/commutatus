@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import EmployeeCard from "../Employee/EmployeeCard";
 import { getTeams, updateTeam } from "../../utils/Slices/teamSlice";
 import { getEmployee } from "../../utils/Slices/employeeSlice";
-import { Link, useHref, useParams } from "react-router-dom";
+import { Link, useHref } from "react-router-dom";
 import { updateIndexedDB } from "../../utils/indexedDB";
 import "./TeamCard.scss";
 import EmployeeInfoForm from "../Employee/EmployeeInfoForm";
