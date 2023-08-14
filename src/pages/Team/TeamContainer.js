@@ -1,15 +1,14 @@
 import React from "react";
 import TeamCard from "../../components/Teams/TeamCard";
-import { getUtilities } from "../../utils/Slices/utilitySlice";
-import { useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
 
 const TeamContainer = () => {
-  const selectUtilities = useSelector(getUtilities);
+  const teamID = useParams().teamID;
 
   return (
     <>
         <TeamCard
-          teamID={selectUtilities.activeEntity}
+          teamID={teamID}
           showEditButton={false}
         />
     </>
