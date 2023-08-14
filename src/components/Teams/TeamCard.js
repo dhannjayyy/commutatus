@@ -21,7 +21,6 @@ const TeamCard = ({ teamID, showEditButton }) => {
   const dispatch = useDispatch();
 
   const getEmployeeRef = (employeeID) => {
-    console.log(selectEmployee?.entities);
     const activeEmployeeRef = selectEmployee?.entities[employeeID];
     return activeEmployeeRef;
   };

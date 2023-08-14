@@ -3,23 +3,27 @@ import DropdownHeading from "./DropdownHeading";
 import { getTeams } from "../../utils/Slices/teamSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { getEmployee } from "../../utils/Slices/employeeSlice";
-import { setActiveEntity } from "../../utils/Slices/utilitySlice";
+import { getUtilities, setActiveEntity } from "../../utils/Slices/utilitySlice";
 
 const DropdownTeam = ({ departmentTeams }) => {
   const selectTeam = useSelector(getTeams);
   const selectEmployee = useSelector(getEmployee);
+  const selectUtilities = useSelector(getUtilities)
   const dispatch = useDispatch();
 
   const selectionHandler = (e, entityID) => {
+    console.log(e.target)
     let target = e.target;
     let targetClasses = target.classList;
     if (
-      targetClasses.contains("team-leader") ||
-      targetClasses.contains("team-member")
+      targetClasses.contains("sidebar-team-leader") ||
+      targetClasses.contains("sidebar-team-member")
     ) {
       dispatch(setActiveEntity({ id: entityID, type: "employee" }));
     }
   };
+
+  console.log(selectUtilities)
 
   return (
     <div className={`team-dropdown-container dropdown-margin-left`}>

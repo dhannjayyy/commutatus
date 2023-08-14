@@ -49,7 +49,6 @@ const Header = () => {
   },[location])
 
   const handleStateChange = (employee) => {
-    console.log(employee)
     dispatch(setActiveEntity({id:employee.id,type:"employee"}));
     navigate("/");
   };
